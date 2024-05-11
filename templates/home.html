@@ -1,0 +1,24 @@
+<html>
+    <body bgcolor=#008b8b>
+
+        <center>
+
+        <h1> STUDENT PERFORMANCE PREDICTION</h1><br>
+        
+        <form method="POST", action="{{url_for('home')}}">
+           <b> Hours Studied:  <input type="text", name='hours studied'> <br><br>
+            Previous Scores:  <input type="text", name='previous scores'> <br><br>
+            Extracurricular Activites: <select name="extracurricular activities">
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+            </select> <br><br>
+            Sleep Hours:  <input type="text", name='sleep hours'> <br><br>
+            Sample Question Paper Practiced: <input type="text", name='sample questions'> <br><br><br></b>
+            <input type="submit" , value='Predict!' >
+        </form>
+
+        
+    </center>
+
+    </body>
+</html>
