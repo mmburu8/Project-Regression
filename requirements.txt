@@ -1,4 +1,4 @@
-﻿asttokens==2.4.1
+asttokens==2.4.1
 attrs==23.2.0
 backcall==0.2.0
 beautifulsoup4==4.12.3
@@ -17,7 +17,7 @@ executing==2.0.1
 fastjsonschema==2.19.1
 Flask==3.0.3
 fonttools==4.51.0
-gunicorn==19.7.1
+gunicorn==22.0.0
 idna==3.7
 ipython==8.12.3
 itsdangerous==2.2.0
@@ -69,7 +69,6 @@ tornado==6.4
 traitlets==5.14.3
 tzdata==2024.1
 urllib3==2.2.1
-waitress==3.0.0
 wcwidth==0.2.13
 webencodings==0.5.1
 Werkzeug==3.0.3
